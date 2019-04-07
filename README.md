@@ -59,11 +59,13 @@ Create a directory in storage. Use slashes to create a subfolders (dir1/dir2)<br
 Write a stringified `Object` or `InputStream` to file in storage<br>
 <br>
 
-    void storage.copy (File localFile, String remoteFile[, boolean force = true])
+    void storage.copy (File localFile, String remoteFile)
+    void storage.copy (File localFile, String remoteFile, boolean force)
 Copy file or directory in storage<br>
 <br>
 
-    void storage.copy (URL localFile, String remoteFile[, boolean force = true])
+    void storage.copy (URL localFile, String remoteFile)
+    void storage.copy (URL localFile, String remoteFile, boolean force)
 Get file from URL and put it in storage<br>
 <br>
 
