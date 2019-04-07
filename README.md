@@ -1,5 +1,5 @@
 # Storager
-Storager is a elegant and lightweight library for clouds and local storages such as:
+Storager is a elegant and lightweight library for clouds and local storages:
 
 - Google Drive
 - Dropbox
@@ -48,7 +48,7 @@ Check if file or directory exists in storage<br>
 <br>
 
     void storage.makeDir (String remoteDir)
-Create a directory in storage. Use the slashes to create a subfolders (dir1/dir2)<br>
+Create a directory in storage. Use slashes to create a subfolders (dir1/dir2)<br>
 <br>
 
     void storage.write (Object|InputStream stream, String remoteFile)
