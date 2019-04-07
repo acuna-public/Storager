@@ -3,9 +3,9 @@ Storager is a elegant and lightweight library for clouds and local storages:
 
 - Google Drive
 - Dropbox
-- SDCard
 - SFTP
-- Яндекс.Диск<br>
+- Яндекс.Диск
+- SDCard<br>
 <br>
 
 **Usage**
