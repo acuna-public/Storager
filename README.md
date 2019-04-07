@@ -35,7 +35,7 @@ It don't use any side libraries, only native Java `HttpURLConnection` to access 
 Set storage auth data<br>
 <br>
 
-    String storager.read (String remoteFile)
+    String storage.read (String remoteFile)
 Read file from storage to string<br>
 <br>
 
@@ -67,18 +67,18 @@ Copy file or directory in storage<br>
 Get file from URL and put it in storage<br>
 <br>
 
-    void storager.copy (String remoteFile, File localFile)
+    void storage.copy (String remoteFile, File localFile)
 Copy file from storage to local filesystem (download)<br>
 <br>
 
-    void storager.copy (String remoteFile, OutputStream stream)
+    void storage.copy (String remoteFile, OutputStream stream)
 Copy file from storage to `OutputStream`<br>
 <br>
 
-    void copy (String remoteSrcFile, String remoteDestFile)
+    void storage.copy (String remoteSrcFile, String remoteDestFile)
 Copy one file to another in current storage<br>
 <br>
 
-    void storager.delete (String remoteFile)
+    void storage.delete (String remoteFile)
 Delete file or folder from storage<br>
 <br>
