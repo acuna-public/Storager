@@ -1,0 +1,11 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="pro.acuna.storage"
+>
+	
+	<application>
+		<activity android:name="pro.acuna.storage.StorageActivity">
+		</activity>
+	</application>
+	
+</manifest>

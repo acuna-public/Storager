@@ -1,0 +1,21 @@
+<resources>
+	
+	<string name="apps_folder_title">Apps</string>
+	<string name="loading">Loading, please wait&#8230;</string>
+	<string name="button_repeat">Repeat</string>
+	<string name="alert_error_nointernet">Please check your internet-connection</string>
+	<string name="alert_error_only_wifi">There\'s only Wi-Fi connection allowed at the application settings</string>
+	<string name="ftp_connect_error">Unable to connect to server. Please check the input data and write possibility to the folder (%e)</string>
+	<string name="ftp_type">Protocol</string>
+	<string name="ftp_username">User name</string>
+	<string name="ftp_password">Password</string>
+	<string name="ftp_server">Server</string>
+	<string name="ftp_rootpath">Root dir</string>
+	<string name="mess_repo_add_ftp_server">Please input the server address</string>
+	<string name="mess_check_ftp_error_1">Unable to connect to server. Please check the input data and write possibility to the folder</string>
+	<string name="ftp_timeout">Timeout (s)</string>
+	<string name="ftp_port">Port</string>
+	<string name="mess_field_error">Please fill a \"%f\" field</string>
+	<string name="loading_check_ftp">Please wait, checking the access to server&#8230;</string>
+	
+</resources>

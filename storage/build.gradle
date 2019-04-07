@@ -1,0 +1,40 @@
+  apply plugin: 'com.android.library'
+  
+  android {
+    
+    compileSdkVersion 27
+    
+    defaultConfig {
+      
+      minSdkVersion 12
+      versionName project.property ('versionName')
+      
+    }
+    
+    buildTypes {
+      
+      debug {
+        consumerProguardFiles 'proguard-rules.pro'
+      }
+      
+      release {
+        consumerProguardFiles 'proguard-rules.pro'
+      }
+      
+    }
+    
+  }
+  
+  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/bintray.gradle'
+  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/publish.gradle'
+  
+  dependencies {
+    
+    implementation fileTree (include: ['*.jar'], dir: 'libs')
+    
+    api project (':andromeda')
+    //implementation 'com.amazonaws:aws-android-sdk-s3:2.4.4'
+    implementation 'com.jcraft:jsch:0.1.54'
+    implementation 'com.jcraft:jzlib:1.1.3'
+    
+  }

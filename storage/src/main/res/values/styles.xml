@@ -1,0 +1,18 @@
+<resources>
+	
+	<style name="TextView">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@android:color/darker_gray</item>
+	</style>
+	
+	<style name="TextInput">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@android:color/darker_gray</item>
+	</style>
+	
+	<style name="TextError">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">#de0000</item>
+	</style>
+	
+</resources>

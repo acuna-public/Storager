@@ -1,0 +1,13 @@
+2.0  15.05.2018
+
+Plugins support added
+
+2.1  
+
+2.2  20.01.2019
+
+Changed Dropbox library
+
+2.3  17.02.2019
+
+Upload listener added
