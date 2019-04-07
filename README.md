@@ -3,17 +3,19 @@ Storager is a elegant and lightweight library for clouds and local storages:
 
 - Google Drive
 - Dropbox
-- SFTP
 - Яндекс.Диск
+- SFTP
 - SDCard<br>
 <br>
 
+It don't use any side libraries, only native Java `HttpURLConnection` to make a queries to the clous official APIs.
+
 **Usage**
 
-	Storage storage = new Storage ();
-	
-	JSONObject data = new JSONObject (), storagesData = new JSONObject ();
-	
+    Storage storage = new Storage ();
+    
+    JSONObject data = new JSONObject (), storagesData = new JSONObject ();
+    
     data.put ("key", "DROPBOX_KEY");
     data.put ("secret", "DROPBOX_SECRET");
     data.put ("redirect_url", "DROPBOX_REDIRECT_URL");
