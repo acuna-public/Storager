@@ -28,7 +28,7 @@ It don't use any side libraries, only native Java `HttpURLConnection` to access 
 	
     storagesData.put ("yadisk", data)
   
-    storage.init ("yadisk", storagesData);
+    storage.init ("dropbox", storagesData);
     
 Set storage auth data<br>
 <br>
