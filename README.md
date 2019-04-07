@@ -1,5 +1,5 @@
 # Storager
-Storager is a elegant and lightweight library for clouds and local storages:
+Storager is an elegant and lightweight library for clouds and local storages:
 
 - Google Drive
 - Dropbox
