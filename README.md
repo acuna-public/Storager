@@ -19,14 +19,16 @@ It don't use any side libraries, only native Java `HttpURLConnection` to access 
     data.put ("key", "DROPBOX_KEY");
     data.put ("secret", "DROPBOX_SECRET");
     data.put ("redirect_url", "DROPBOX_REDIRECT_URL");
-	
-    storagesData.put ("dropbox", data)
+    
+    storagesData.put ("dropbox", data);
+    
+    data = new JSONObject ();
   
     data.put ("key", "YADISK_KEY");
     data.put ("secret", "YADISK_SECRET");
     data.put ("redirect_url", "YADISK_REDIRECT_URL");
 	
-    storagesData.put ("yadisk", data)
+    storagesData.put ("yadisk", data);
   
     storage.init ("dropbox", storagesData);
     
