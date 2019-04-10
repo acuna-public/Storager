@@ -11,25 +11,27 @@ It don't use any side libraries, only native Java `HttpURLConnection` to access 
 
 **Usage**
 
-    Storage storage = new Storage ();
-    
-    JSONObject data = new JSONObject (), storagesData = new JSONObject ();
-    
-    data.put ("key", "DROPBOX_KEY");
-    data.put ("secret", "DROPBOX_SECRET");
-    data.put ("redirect_url", "DROPBOX_REDIRECT_URL");
-    
-    storagesData.put ("dropbox", data);
-    
-    data = new JSONObject ();
-  
-    data.put ("key", "YADISK_KEY");
-    data.put ("secret", "YADISK_SECRET");
-    data.put ("redirect_url", "YADISK_REDIRECT_URL");
-	
-    storagesData.put ("yadisk", data);
-  
-    storage.init ("dropbox", storagesData);
+~~~java
+Storage storage = new Storage ();
+
+JSONObject data = new JSONObject (), storagesData = new JSONObject ();
+
+data.put ("key", "DROPBOX_KEY");
+data.put ("secret", "DROPBOX_SECRET");
+data.put ("redirect_url", "DROPBOX_REDIRECT_URL");
+
+storagesData.put ("dropbox", data);
+
+data = new JSONObject ();
+
+data.put ("key", "YADISK_KEY");
+data.put ("secret", "YADISK_SECRET");
+data.put ("redirect_url", "YADISK_REDIRECT_URL");
+
+storagesData.put ("yadisk", data);
+
+storage.init ("dropbox", storagesData);
+~~~
     
 Set storage auth data<br>
 <br>
