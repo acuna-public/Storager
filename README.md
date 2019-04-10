@@ -1,11 +1,11 @@
 # Storager
-Storager is lightweight library for clouds and local storages:
+Storager is a lightweight but very powerful library for clouds and local storages for Android:
 
-- Google Drive
-- Dropbox
-- Яндекс.Диск
-- SFTP
-- SDCard<br>
+[x] Google Drive
+[x] Dropbox
+[x] Яндекс.Диск
+[x] SFTP
+[x] SDCard<br>
 <br>
 
 It don't use any side libraries, only native Java `HttpURLConnection` to access the official clouds APIs.
