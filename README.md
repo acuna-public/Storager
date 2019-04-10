@@ -1,12 +1,6 @@
 ## Storage
 Storager is a lightweight but very powerful library for clouds and local storages for Android
 
-[![BADGINATOR](https://badginator.herokuapp.com/acuna-public/Storage.svg)](https://github.com/defunctzombie/badginator)
-[![Build Status](https://travis-ci.com/acuna-public/Storage.svg?branch=master)](https://travis-ci.com/acuna-public/Storage)
-[![GitHub tag](https://img.shields.io/github/tag/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/tags/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-
 **Supported storages**
 
 - [x] Google Drive
