@@ -7,7 +7,11 @@ Storager is a lightweight but very powerful library for clouds and local storage
 - [x] SFTP
 - [x] SDCard
 
-It don't use any side libraries, only native Java `HttpURLConnection` to access the official clouds APIs.
+**Advantages**
+
+- Simple to use
+- Lightweight
+- Don't use any side libraries, only native Java `HttpURLConnection` to access the official clouds APIs
 
 **Usage**
 
