@@ -1,7 +1,8 @@
+## Storage
 Storager is a lightweight but very powerful library for clouds and local storages for Android
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-## Supported storages
+**Supported storages**
 
 - [x] Google Drive
 - [x] Dropbox
@@ -9,13 +10,13 @@ Storager is a lightweight but very powerful library for clouds and local storage
 - [x] SFTP
 - [x] SDCard
 
-## Advantages
+**Advantages**
 
 - Simple to use
 - Lightweight
 - Don't use any side libraries, only native Java `HttpURLConnection` to access the official clouds APIs
 
-## Usage
+**Usage**
 
 ~~~java
 Storage storage = new Storage ();
