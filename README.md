@@ -24,7 +24,6 @@ Add the following dependency in `dependencies` section of your module `build.gra
 
     api 'pro.acuna:storager:2.3'
 <br>
-<br>
 
 **Usage**
 
