@@ -1,4 +1,4 @@
-## Storage
+## Storager
 Storager is a lightweight but very powerful library for clouds and local storages for Android
 <br>
 
@@ -15,7 +15,7 @@ Storager is a lightweight but very powerful library for clouds and local storage
 
 - Simple to use
 - Lightweight
-- Don't use any side libraries, only native Java `HttpURLConnection` to access the official clouds APIs
+- Doesn't use any side libraries, only native Java `HttpURLConnection` to access the clouds services REST APIs
 <br>
 
 **Usage**
