@@ -3,11 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Storage.iml" filepath="$PROJECT_DIR$/Storage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Andromeda/andromeda/andromeda.iml" filepath="$PROJECT_DIR$/../Andromeda/andromeda/andromeda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Archiver/archiver/archiver.iml" filepath="$PROJECT_DIR$/../Archiver/archiver/archiver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../JabaDaba/jabadaba/jabadaba.iml" filepath="$PROJECT_DIR$/../JabaDaba/jabadaba/jabadaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../[Side]/JSON/json/json.iml" filepath="$PROJECT_DIR$/../[Side]/JSON/json/json.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../[Side]/jTar/jtar/jtar.iml" filepath="$PROJECT_DIR$/../[Side]/jTar/jtar/jtar.iml" />
       <module fileurl="file://$PROJECT_DIR$/storage/storage.iml" filepath="$PROJECT_DIR$/storage/storage.iml" />
     </modules>
   </component>
