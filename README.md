@@ -1,4 +1,4 @@
-## Storage
+## Storager
 Storager is a lightweight but very powerful library for clouds and local storages for Android
 <br>
 
