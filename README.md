@@ -18,6 +18,14 @@ Storager is a lightweight but very powerful library for clouds and local storage
 - Doesn't use any side libraries, only native Java `HttpURLConnection` to access the clouds services REST APIs
 <br>
 
+**Install**
+
+Add the following dependency in `dependencies` section of your module `build.gradle` file:
+
+    api 'pro.acuna:storager:2.3'
+<br>
+<br>
+
 **Usage**
 
 ~~~java
