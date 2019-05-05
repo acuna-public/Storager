@@ -8,7 +8,9 @@
 	
 	import java.io.InputStream;
 	import java.io.UnsupportedEncodingException;
-	import java.util.ArrayList;
+  import java.net.MalformedURLException;
+  import java.net.URL;
+  import java.util.ArrayList;
 	import java.util.LinkedHashMap;
 	import java.util.List;
 	import java.util.Map;
@@ -183,13 +185,13 @@
 					Item item = storage.toItem (remoteDir, data.getString ("name"))
 														 .isDir (data.getString ("type").equals ("dir"));
 					
-					if (!item.isDir ()) item.setDirectLink (data.getString ("href"));
+					if (!item.isDir ()) item.setDirectLink (new URL (data.getString ("href")));
 					
 					if (item.show (mode)) files.add (item);
 					
 				}
 				
-			} catch (HttpRequestException | JSONException e) {
+			} catch (HttpRequestException | MalformedURLException | JSONException e) {
 				throw new StorageException (storage, e, remoteDir);
 			}
 			
@@ -382,7 +384,7 @@
 		
 		@Override
 		public void copy (String remoteSrcFile, String remoteDestFile) throws StorageException { // TODO
-			
+		
 		}
 		
 		@Override

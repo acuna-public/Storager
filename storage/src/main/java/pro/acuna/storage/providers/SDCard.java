@@ -9,11 +9,14 @@
 	import java.io.FileInputStream;
 	import java.io.IOException;
 	import java.io.InputStream;
-	import java.util.ArrayList;
+  import java.net.MalformedURLException;
+  import java.net.URL;
+  import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Map;
-	
-	import pro.acuna.andromeda.OS;
+  
+  import pro.acuna.andromeda.Log;
+  import pro.acuna.andromeda.OS;
 	import pro.acuna.andromeda.User;
 	import pro.acuna.jabadaba.Files;
 	import pro.acuna.jabadaba.Int;
@@ -98,26 +101,31 @@
 		}
 		
 		@Override
-		public List<Item> list (String remoteDir, int mode) throws StorageException, OutOfMemoryException {
+		public List<Item> list (String remoteDir, int mode) throws StorageException {
 			
-			String fullDir = prepRemoteFile (remoteDir);
-			String[] files = destFile (fullDir).list ();
+			File[] files = destFile (remoteDir).listFiles ();
 			
 			List<Item> output = new ArrayList<> ();
 			
 			if (files != null) {
 				
-				for (String file : files) {
-					
-					Item item = storage.toItem (remoteDir, file)
-														 .isDir (destFile (file).isDirectory ())
-														 .setDirectLink (prepRemoteFile (file));
-					
-					if (item.show (mode)) output.add (item);
-					
-				}
-				
-			}
+			  try {
+          
+          for (File file : files) {
+            
+            Item item = storage.toItem (file.getAbsolutePath ())
+                               .isDir (file.isDirectory ())
+                               .setDirectLink (file.toURI ().toURL ());
+            
+            if (item.show (mode)) output.add (item);
+            
+          }
+          
+        } catch (MalformedURLException e) {
+          throw new StorageException (e);
+        }
+        
+      } else throw new StorageException (storage, remoteDir + ": Not found or access denied");
 			
 			return output;
 			

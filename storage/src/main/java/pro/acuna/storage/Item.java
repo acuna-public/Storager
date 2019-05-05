@@ -126,14 +126,9 @@
 		
 		private URL link;
 		
-		public Item setDirectLink (String link) throws StorageException {
+		public Item setDirectLink (URL link) {
 			
-			try {
-				this.link = new URL (link);
-			} catch (MalformedURLException e) {
-				throw new StorageException (storage, e);
-			}
-			
+		  this.link = link;
 			return this;
 			
 		}

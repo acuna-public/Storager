@@ -34,7 +34,9 @@
 	import java.io.OutputStream;
 	import java.io.PipedInputStream;
 	import java.io.PipedOutputStream;
-	import java.util.ArrayList;
+  import java.net.MalformedURLException;
+  import java.net.URL;
+  import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Map;
 	import java.util.Properties;
@@ -196,7 +198,7 @@
 							
 							Item item = storage.toItem (remoteDir, name)
 																 .isDir (entry.getAttrs ().isDir ())
-																 .setDirectLink (entry.toString ());
+																 .setDirectLink (new URL (entry.toString ()));
 							
 							if (item.show (mode)) files.add (item);
 							
@@ -206,7 +208,7 @@
 					
 				}
 				
-			} catch (SftpException e) {
+			} catch (MalformedURLException | SftpException e) {
 				throw new StorageException (storage, e);
 			}
 			

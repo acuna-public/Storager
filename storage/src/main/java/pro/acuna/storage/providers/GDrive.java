@@ -12,7 +12,9 @@
 	import java.io.IOException;
 	import java.io.InputStream;
 	import java.io.UnsupportedEncodingException;
-	import java.util.ArrayList;
+  import java.net.MalformedURLException;
+  import java.net.URL;
+  import java.util.ArrayList;
 	import java.util.LinkedHashMap;
 	import java.util.List;
 	import java.util.Map;
@@ -411,7 +413,7 @@
 						Item item = storage.toItem (remoteDir, file.getString ("name"))
 															 .isDir (file.getString ("mimeType").equals (mimeFolder));
 						
-						if (!item.isDir ()) item.setDirectLink (file.getString ("webContentLink"));
+						if (!item.isDir ()) item.setDirectLink (new URL (file.getString ("webContentLink")));
 						if (item.show (mode)) files.add (item);
 						
 					}
@@ -420,7 +422,7 @@
 				
 				return files;
 				
-			} catch (JSONException e) {
+			} catch (MalformedURLException | JSONException e) {
 				throw new StorageException (storage, e);
 			}
 			
