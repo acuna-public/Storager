@@ -1,5 +1,5 @@
 ## Storager
-Storager is a lightweight but very powerful library for clouds and local storages for Android
+Storager is a lightweight and very powerful library for clouds and local storages for Android
 <br>
 
 **Supported storages**
