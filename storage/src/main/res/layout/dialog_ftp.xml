@@ -1,212 +1,212 @@
 <ScrollView
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:paddingLeft="15dp"
-	android:paddingRight="15dp"
-	android:paddingTop="15dp"
-	>
-	
-	<TableLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="vertical"
-		>
-		
-		<TableRow
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="5dp"
-			android:orientation="vertical"
-			>
-			
-			<TextView
-				android:id="@+id/ftp_server_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.7"
-				android:text="@string/ftp_server"
-				android:textAppearance="@style/TextView"
-				/>
-			
-			<TextView
-				android:id="@+id/ftp_port_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.3"
-				android:text="@string/ftp_port"
-				android:textAppearance="@style/TextView"
-				/>
-		
-		</TableRow>
-		
-		<TableRow
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:orientation="vertical"
-			>
-			
-			<EditText
-				android:id="@+id/ftp_server"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginEnd="5dp"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginRight="5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.7"
-				android:inputType="text"
-				android:paddingTop="0sp"
-				/>
-			
-			<EditText
-				android:id="@+id/ftp_port"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.3"
-				android:inputType="text"
-				android:paddingTop="0sp"
-				/>
-		
-		</TableRow>
-		
-		<TextView
-			android:id="@+id/ftp_server_check"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="-3sp"
-			android:textAppearance="@style/TextError"
-			/>
-		
-		<TableRow
-			android:id="@+id/area_ftp_3"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="5dp"
-			android:orientation="vertical"
-			>
-			
-			<TextView
-				android:id="@+id/ftp_username_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.5"
-				android:text="@string/ftp_username"
-				android:textAppearance="@style/TextView"
-				/>
-			
-			<TextView
-				android:id="@+id/ftp_password_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.5"
-				android:text="@string/ftp_password"
-				android:textAppearance="@style/TextView"
-				/>
-		
-		</TableRow>
-		
-		<TableRow
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="10dp"
-			android:orientation="vertical"
-			>
-			
-			<EditText
-				android:id="@+id/ftp_username"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginEnd="5dp"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginRight="5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.5"
-				android:inputType="text"
-				android:paddingTop="0sp"
-				/>
-			
-			<EditText
-				android:id="@+id/ftp_password"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.5"
-				android:inputType="textPassword"
-				android:paddingTop="0sp"
-				/>
-		
-		</TableRow>
-		
-		<TableRow
-			android:id="@+id/area_ftp_5"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="5dp"
-			android:orientation="vertical"
-			>
-			
-			<TextView
-				android:id="@+id/ftp_rootpath_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.7"
-				android:text="@string/ftp_rootpath"
-				android:textAppearance="@style/TextView"
-				/>
-			
-			<TextView
-				android:id="@+id/ftp_timeout_text"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_weight="0.3"
-				android:text="@string/ftp_timeout"
-				android:textAppearance="@style/TextView"
-				/>
-		
-		</TableRow>
-		
-		<TableRow
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:orientation="vertical"
-			>
-			
-			<EditText
-				android:id="@+id/ftp_rootpath"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginEnd="5dp"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginRight="5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.7"
-				android:inputType="text"
-				android:paddingTop="0sp"
-				/>
-			
-			<EditText
-				android:id="@+id/ftp_timeout"
-				style="@style/TextInput"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="-5dp"
-				android:layout_marginStart="-5dp"
-				android:layout_weight="0.3"
-				android:inputType="text"
-				android:paddingTop="0sp"
-				/>
-		
-		</TableRow>
-	
-	</TableLayout>
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingLeft="15dp"
+  android:paddingRight="15dp"
+  android:paddingTop="15dp"
+  >
+  
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+    <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+      android:orientation="vertical"
+      >
+      
+      <TextView
+        android:id="@+id/ftp_server_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:text="@string/ftp_server"
+        android:textAppearance="@style/TextView"
+        />
+      
+      <TextView
+        android:id="@+id/ftp_port_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="@string/ftp_port"
+        android:textAppearance="@style/TextView"
+        />
+    
+    </TableRow>
+    
+    <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      
+      <EditText
+        android:id="@+id/ftp_server"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.7"
+        android:inputType="text"
+        android:paddingTop="0sp"
+        />
+      
+      <EditText
+        android:id="@+id/ftp_port"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.3"
+        android:inputType="text"
+        android:paddingTop="0sp"
+        />
+    
+    </TableRow>
+    
+    <TextView
+      android:id="@+id/ftp_server_check"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="-3sp"
+      android:textAppearance="@style/TextError"
+      />
+    
+    <TableRow
+      android:id="@+id/area_ftp_3"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+      android:orientation="vertical"
+      >
+      
+      <TextView
+        android:id="@+id/ftp_username_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/ftp_username"
+        android:textAppearance="@style/TextView"
+        />
+      
+      <TextView
+        android:id="@+id/ftp_password_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/ftp_password"
+        android:textAppearance="@style/TextView"
+        />
+    
+    </TableRow>
+    
+    <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:orientation="vertical"
+      >
+      
+      <EditText
+        android:id="@+id/ftp_username"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.5"
+        android:inputType="text"
+        android:paddingTop="0sp"
+        />
+      
+      <EditText
+        android:id="@+id/ftp_password"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.5"
+        android:inputType="textPassword"
+        android:paddingTop="0sp"
+        />
+    
+    </TableRow>
+    
+    <TableRow
+      android:id="@+id/area_ftp_5"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+      android:orientation="vertical"
+      >
+      
+      <TextView
+        android:id="@+id/ftp_rootpath_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:text="@string/ftp_rootpath"
+        android:textAppearance="@style/TextView"
+        />
+      
+      <TextView
+        android:id="@+id/ftp_timeout_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="@string/ftp_timeout"
+        android:textAppearance="@style/TextView"
+        />
+    
+    </TableRow>
+    
+    <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      
+      <EditText
+        android:id="@+id/ftp_rootpath"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.7"
+        android:inputType="text"
+        android:paddingTop="0sp"
+        />
+      
+      <EditText
+        android:id="@+id/ftp_timeout"
+        style="@style/TextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginStart="-5dp"
+        android:layout_weight="0.3"
+        android:inputType="text"
+        android:paddingTop="0sp"
+        />
+    
+    </TableRow>
+  
+  </TableLayout>
 
 </ScrollView>

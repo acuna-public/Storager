@@ -1,22 +1,22 @@
 <resources>
-	
-	<string name="apps_folder_title">Приложения</string>
-	<string name="loading">Пожалуйста, подождите&#8230;</string>
-	<string name="button_repeat">Повторить</string>
-	<string name="alert_error_nointernet">Проверьте подключение к интернету</string>
-	<string name="alert_error_only_wifi">В настройках приложения подключение к интернету разрешено только через Wi-Fi</string>
-	<string name="ftp_connect_error">Не удалось подключиться к серверу. Проверьте введенные данные, а так же возможность записи в корневую папку (%e).</string>
-	
-	<string name="ftp_type">Протокол</string>
-	<string name="ftp_username">Имя пользователя</string>
-	<string name="ftp_password">Пароль</string>
-	<string name="ftp_server">Сервер</string>
-	<string name="ftp_rootpath">Корневая папка</string>
-	<string name="mess_repo_add_ftp_server">Введите адрес FTP-сервера</string>
-	<string name="mess_check_ftp_error_1">Не удалось подключиться к серверу. Проверьте подключение к сети, имя пользователя и пароль, а также возможность записи в домашнюю директорию.</string>
-	<string name="ftp_timeout">Таймаут (сек.)</string>
-	<string name="ftp_port">Порт</string>
-	<string name="mess_field_error">Пожалуйста, заполните поле \"%f\"</string>
-	<string name="loading_check_ftp">Подождите, идет проверка доступа к серверу&#8230;</string>
-	
+  
+  <string name="apps_folder_title">Приложения</string>
+  <string name="loading">Пожалуйста, подождите&#8230;</string>
+  <string name="button_repeat">Повторить</string>
+  <string name="alert_error_nointernet">Проверьте подключение к интернету</string>
+  <string name="alert_error_only_wifi">В настройках приложения подключение к интернету разрешено только через Wi-Fi</string>
+  <string name="ftp_connect_error">Не удалось подключиться к серверу. Проверьте введенные данные, а так же возможность записи в корневую папку (%e).</string>
+  
+  <string name="ftp_type">Протокол</string>
+  <string name="ftp_username">Имя пользователя</string>
+  <string name="ftp_password">Пароль</string>
+  <string name="ftp_server">Сервер</string>
+  <string name="ftp_rootpath">Корневая папка</string>
+  <string name="mess_repo_add_ftp_server">Введите адрес FTP-сервера</string>
+  <string name="mess_check_ftp_error_1">Не удалось подключиться к серверу. Проверьте подключение к сети, имя пользователя и пароль, а также возможность записи в домашнюю директорию.</string>
+  <string name="ftp_timeout">Таймаут (сек.)</string>
+  <string name="ftp_port">Порт</string>
+  <string name="mess_field_error">Пожалуйста, заполните поле \"%f\"</string>
+  <string name="loading_check_ftp">Подождите, идет проверка доступа к серверу&#8230;</string>
+  
 </resources>

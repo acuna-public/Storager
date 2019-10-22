@@ -1,47 +1,45 @@
 <RelativeLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:id="@+id/content"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:gravity="center"
-	>
-	
-	<ScrollView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		tools:ignore="UselessParent"
-		>
-		
-		<LinearLayout
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:gravity="center"
-			android:orientation="vertical"
-			>
-			
-			<TextView
-				android:id="@+id/text"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:gravity="center"
-				android:padding="15dp"
-				android:text="@string/loading"
-				android:textColor="@android:color/darker_gray"
-				android:textSize="19sp"
-				/>
-			
-			<Button
-				android:id="@+id/button"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:gravity="center"
-				android:text="@string/button_repeat"
-				android:visibility="gone"
-				/>
-		
-		</LinearLayout>
-	
-	</ScrollView>
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/content"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  >
+  
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="vertical"
+      >
+      
+      <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/loading"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="19sp"
+        />
+      
+      <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/button_repeat"
+        android:visibility="gone"
+        />
+    
+    </LinearLayout>
+  
+  </ScrollView>
 
 </RelativeLayout>

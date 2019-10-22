@@ -33,8 +33,9 @@
     implementation fileTree (include: ['*.jar'], dir: 'libs')
     
 		api 'pro.acuna:andromeda:+'
+    //api project (':andromeda')
     //implementation 'com.amazonaws:aws-android-sdk-s3:2.4.4'
-    implementation 'com.jcraft:jsch:0.1.54'
+    implementation 'com.jcraft:jsch:0.1.55'
     implementation 'com.jcraft:jzlib:1.1.3'
-    
+		
   }
