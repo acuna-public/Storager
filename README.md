@@ -46,7 +46,7 @@ data.put ("redirect_url", "YADISK_REDIRECT_URL");
 
 storagesData.put ("yadisk", data);
 
-storage.init ("dropbox", storagesData);
+storage.init ("yadisk", storagesData);
 ~~~
     
 Set storage auth data<br>
